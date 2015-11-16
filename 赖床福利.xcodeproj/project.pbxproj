@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4146AF521BF5C7A500DF7965 /* getURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4146AF511BF5C7A500DF7965 /* getURLProtocol.swift */; };
+		4185DEE31BF070A90019CCCA /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185DEE21BF070A90019CCCA /* TencentOpenAPI.framework */; };
+		4185DEE51BF0713F0019CCCA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185DEE41BF0713F0019CCCA /* SystemConfiguration.framework */; };
+		4185DEE71BF0763F0019CCCA /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4185DEE61BF0763F0019CCCA /* TencentOpenApi_IOS_Bundle.bundle */; };
+		4185DEE91BF0766E0019CCCA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185DEE81BF0766E0019CCCA /* Security.framework */; };
+		4185DEEB1BF0768B0019CCCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185DEEA1BF0768B0019CCCA /* CoreGraphics.framework */; };
+		4185DEED1BF076940019CCCA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185DEEC1BF076940019CCCA /* libsqlite3.tbd */; };
+		4185DEEF1BF0769A0019CCCA /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185DEEE1BF0769A0019CCCA /* libiconv.tbd */; };
+		4185DEF11BF076A20019CCCA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185DEF01BF076A20019CCCA /* CoreTelephony.framework */; };
+		4185DEF31BF076AA0019CCCA /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185DEF21BF076AA0019CCCA /* libstdc++.tbd */; };
+		4185DEF51BF076B30019CCCA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185DEF41BF076B30019CCCA /* libz.tbd */; };
+		4190BD9C1BE202F6008F97C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4190BD9B1BE202F6008F97C5 /* AppDelegate.swift */; };
+		4190BD9E1BE202F6008F97C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4190BD9D1BE202F6008F97C5 /* ViewController.swift */; };
+		4190BDA11BE202F6008F97C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4190BD9F1BE202F6008F97C5 /* Main.storyboard */; };
+		4190BDA31BE202F6008F97C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4190BDA21BE202F6008F97C5 /* Assets.xcassets */; };
+		4190BDA61BE202F6008F97C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4190BDA41BE202F6008F97C5 /* LaunchScreen.storyboard */; };
+		4190BDB11BE202F6008F97C5 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4190BDB01BE202F6008F97C5 /* ____Tests.swift */; };
+		4190BDBC1BE202F6008F97C5 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4190BDBB1BE202F6008F97C5 /* ____UITests.swift */; };
+		41B87C671BF3486E001199FE /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B87C631BF3486E001199FE /* libWeChatSDK.a */; };
+		41D6CFA81BE3621400A69ABD /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 41D6CFA71BE3621400A69ABD /* Assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4190BDAD1BE202F6008F97C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4190BD901BE202F6008F97C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4190BD971BE202F6008F97C5;
+			remoteInfo = "赖床福利";
+		};
+		4190BDB81BE202F6008F97C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4190BD901BE202F6008F97C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4190BD971BE202F6008F97C5;
+			remoteInfo = "赖床福利";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4146AF511BF5C7A500DF7965 /* getURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getURLProtocol.swift; sourceTree = "<group>"; };
+		4185DEE21BF070A90019CCCA /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		4185DEE41BF0713F0019CCCA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4185DEE61BF0763F0019CCCA /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		4185DEE81BF0766E0019CCCA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4185DEEA1BF0768B0019CCCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4185DEEC1BF076940019CCCA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		4185DEEE1BF0769A0019CCCA /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		4185DEF01BF076A20019CCCA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4185DEF21BF076AA0019CCCA /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		4185DEF41BF076B30019CCCA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4185DEF91BF0815D0019CCCA /* 赖床福利-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "赖床福利-Bridging-Header.h"; sourceTree = "<group>"; };
+		4190BD981BE202F6008F97C5 /* 赖床福利.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "赖床福利.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4190BD9B1BE202F6008F97C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4190BD9D1BE202F6008F97C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4190BDA01BE202F6008F97C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4190BDA21BE202F6008F97C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4190BDA51BE202F6008F97C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4190BDA71BE202F6008F97C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4190BDAC1BE202F6008F97C5 /* 赖床福利Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "赖床福利Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4190BDB01BE202F6008F97C5 /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		4190BDB21BE202F6008F97C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4190BDB71BE202F6008F97C5 /* 赖床福利UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "赖床福利UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4190BDBB1BE202F6008F97C5 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		4190BDBD1BE202F6008F97C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B87C631BF3486E001199FE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		41B87C651BF3486E001199FE /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		41B87C661BF3486E001199FE /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		41D6CFA71BE3621400A69ABD /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4190BD951BE202F6008F97C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4185DEF51BF076B30019CCCA /* libz.tbd in Frameworks */,
+				4185DEF31BF076AA0019CCCA /* libstdc++.tbd in Frameworks */,
+				4185DEF11BF076A20019CCCA /* CoreTelephony.framework in Frameworks */,
+				4185DEEF1BF0769A0019CCCA /* libiconv.tbd in Frameworks */,
+				41B87C671BF3486E001199FE /* libWeChatSDK.a in Frameworks */,
+				4185DEED1BF076940019CCCA /* libsqlite3.tbd in Frameworks */,
+				4185DEEB1BF0768B0019CCCA /* CoreGraphics.framework in Frameworks */,
+				4185DEE91BF0766E0019CCCA /* Security.framework in Frameworks */,
+				4185DEE51BF0713F0019CCCA /* SystemConfiguration.framework in Frameworks */,
+				4185DEE31BF070A90019CCCA /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4190BDA91BE202F6008F97C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4190BDB41BE202F6008F97C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4190BD8F1BE202F6008F97C5 = {
+			isa = PBXGroup;
+			children = (
+				41B87C621BF3486E001199FE /* SDKExport */,
+				4185DEF41BF076B30019CCCA /* libz.tbd */,
+				4185DEF21BF076AA0019CCCA /* libstdc++.tbd */,
+				4185DEF01BF076A20019CCCA /* CoreTelephony.framework */,
+				4185DEEE1BF0769A0019CCCA /* libiconv.tbd */,
+				4185DEEC1BF076940019CCCA /* libsqlite3.tbd */,
+				4185DEEA1BF0768B0019CCCA /* CoreGraphics.framework */,
+				4185DEE81BF0766E0019CCCA /* Security.framework */,
+				4185DEE61BF0763F0019CCCA /* TencentOpenApi_IOS_Bundle.bundle */,
+				4185DEE41BF0713F0019CCCA /* SystemConfiguration.framework */,
+				4185DEE21BF070A90019CCCA /* TencentOpenAPI.framework */,
+				4190BD9A1BE202F6008F97C5 /* 赖床福利 */,
+				4190BDAF1BE202F6008F97C5 /* 赖床福利Tests */,
+				4190BDBA1BE202F6008F97C5 /* 赖床福利UITests */,
+				4190BD991BE202F6008F97C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4190BD991BE202F6008F97C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4190BD981BE202F6008F97C5 /* 赖床福利.app */,
+				4190BDAC1BE202F6008F97C5 /* 赖床福利Tests.xctest */,
+				4190BDB71BE202F6008F97C5 /* 赖床福利UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4190BD9A1BE202F6008F97C5 /* 赖床福利 */ = {
+			isa = PBXGroup;
+			children = (
+				41D6CFA71BE3621400A69ABD /* Assets */,
+				4190BDA71BE202F6008F97C5 /* Info.plist */,
+				4190BD9B1BE202F6008F97C5 /* AppDelegate.swift */,
+				4190BD9D1BE202F6008F97C5 /* ViewController.swift */,
+				4146AF511BF5C7A500DF7965 /* getURLProtocol.swift */,
+				4190BDA21BE202F6008F97C5 /* Assets.xcassets */,
+				4190BDA41BE202F6008F97C5 /* LaunchScreen.storyboard */,
+				4190BD9F1BE202F6008F97C5 /* Main.storyboard */,
+				4185DEF91BF0815D0019CCCA /* 赖床福利-Bridging-Header.h */,
+			);
+			path = "赖床福利";
+			sourceTree = "<group>";
+		};
+		4190BDAF1BE202F6008F97C5 /* 赖床福利Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4190BDB01BE202F6008F97C5 /* ____Tests.swift */,
+				4190BDB21BE202F6008F97C5 /* Info.plist */,
+			);
+			path = "赖床福利Tests";
+			sourceTree = "<group>";
+		};
+		4190BDBA1BE202F6008F97C5 /* 赖床福利UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4190BDBB1BE202F6008F97C5 /* ____UITests.swift */,
+				4190BDBD1BE202F6008F97C5 /* Info.plist */,
+			);
+			path = "赖床福利UITests";
+			sourceTree = "<group>";
+		};
+		41B87C621BF3486E001199FE /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				41B87C631BF3486E001199FE /* libWeChatSDK.a */,
+				41B87C651BF3486E001199FE /* WXApi.h */,
+				41B87C661BF3486E001199FE /* WXApiObject.h */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4190BD971BE202F6008F97C5 /* 赖床福利 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4190BDC01BE202F6008F97C5 /* Build configuration list for PBXNativeTarget "赖床福利" */;
+			buildPhases = (
+				4190BD941BE202F6008F97C5 /* Sources */,
+				4190BD951BE202F6008F97C5 /* Frameworks */,
+				4190BD961BE202F6008F97C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "赖床福利";
+			productName = "赖床福利";
+			productReference = 4190BD981BE202F6008F97C5 /* 赖床福利.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4190BDAB1BE202F6008F97C5 /* 赖床福利Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4190BDC31BE202F6008F97C5 /* Build configuration list for PBXNativeTarget "赖床福利Tests" */;
+			buildPhases = (
+				4190BDA81BE202F6008F97C5 /* Sources */,
+				4190BDA91BE202F6008F97C5 /* Frameworks */,
+				4190BDAA1BE202F6008F97C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4190BDAE1BE202F6008F97C5 /* PBXTargetDependency */,
+			);
+			name = "赖床福利Tests";
+			productName = "赖床福利Tests";
+			productReference = 4190BDAC1BE202F6008F97C5 /* 赖床福利Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4190BDB61BE202F6008F97C5 /* 赖床福利UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4190BDC61BE202F6008F97C5 /* Build configuration list for PBXNativeTarget "赖床福利UITests" */;
+			buildPhases = (
+				4190BDB31BE202F6008F97C5 /* Sources */,
+				4190BDB41BE202F6008F97C5 /* Frameworks */,
+				4190BDB51BE202F6008F97C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4190BDB91BE202F6008F97C5 /* PBXTargetDependency */,
+			);
+			name = "赖床福利UITests";
+			productName = "赖床福利UITests";
+			productReference = 4190BDB71BE202F6008F97C5 /* 赖床福利UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4190BD901BE202F6008F97C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ChenXiaoShun;
+				TargetAttributes = {
+					4190BD971BE202F6008F97C5 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2M9WY9W6QX;
+					};
+					4190BDAB1BE202F6008F97C5 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2M9WY9W6QX;
+						TestTargetID = 4190BD971BE202F6008F97C5;
+					};
+					4190BDB61BE202F6008F97C5 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2M9WY9W6QX;
+						TestTargetID = 4190BD971BE202F6008F97C5;
+					};
+				};
+			};
+			buildConfigurationList = 4190BD931BE202F6008F97C5 /* Build configuration list for PBXProject "赖床福利" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 4190BD8F1BE202F6008F97C5;
+			productRefGroup = 4190BD991BE202F6008F97C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4190BD971BE202F6008F97C5 /* 赖床福利 */,
+				4190BDAB1BE202F6008F97C5 /* 赖床福利Tests */,
+				4190BDB61BE202F6008F97C5 /* 赖床福利UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4190BD961BE202F6008F97C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4190BDA61BE202F6008F97C5 /* LaunchScreen.storyboard in Resources */,
+				41D6CFA81BE3621400A69ABD /* Assets in Resources */,
+				4190BDA31BE202F6008F97C5 /* Assets.xcassets in Resources */,
+				4185DEE71BF0763F0019CCCA /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				4190BDA11BE202F6008F97C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4190BDAA1BE202F6008F97C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4190BDB51BE202F6008F97C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4190BD941BE202F6008F97C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4190BD9E1BE202F6008F97C5 /* ViewController.swift in Sources */,
+				4190BD9C1BE202F6008F97C5 /* AppDelegate.swift in Sources */,
+				4146AF521BF5C7A500DF7965 /* getURLProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4190BDA81BE202F6008F97C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4190BDB11BE202F6008F97C5 /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4190BDB31BE202F6008F97C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4190BDBC1BE202F6008F97C5 /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4190BDAE1BE202F6008F97C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4190BD971BE202F6008F97C5 /* 赖床福利 */;
+			targetProxy = 4190BDAD1BE202F6008F97C5 /* PBXContainerItemProxy */;
+		};
+		4190BDB91BE202F6008F97C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4190BD971BE202F6008F97C5 /* 赖床福利 */;
+			targetProxy = 4190BDB81BE202F6008F97C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4190BD9F1BE202F6008F97C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4190BDA01BE202F6008F97C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4190BDA41BE202F6008F97C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4190BDA51BE202F6008F97C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4190BDBE1BE202F6008F97C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4190BDBF1BE202F6008F97C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4190BDC11BE202F6008F97C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "赖床福利/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKExport",
+				);
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = "CaoNiMa.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "赖床福利/赖床福利-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4190BDC21BE202F6008F97C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "赖床福利/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKExport",
+				);
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = "CaoNiMa.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "赖床福利/赖床福利-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		4190BDC41BE202F6008F97C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "赖床福利Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CaoNiMa.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/赖床福利.app/赖床福利";
+			};
+			name = Debug;
+		};
+		4190BDC51BE202F6008F97C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "赖床福利Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CaoNiMa.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/赖床福利.app/赖床福利";
+			};
+			name = Release;
+		};
+		4190BDC71BE202F6008F97C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "赖床福利UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CaoNiMa.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "赖床福利";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4190BDC81BE202F6008F97C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "赖床福利UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CaoNiMa.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "赖床福利";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4190BD931BE202F6008F97C5 /* Build configuration list for PBXProject "赖床福利" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4190BDBE1BE202F6008F97C5 /* Debug */,
+				4190BDBF1BE202F6008F97C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4190BDC01BE202F6008F97C5 /* Build configuration list for PBXNativeTarget "赖床福利" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4190BDC11BE202F6008F97C5 /* Debug */,
+				4190BDC21BE202F6008F97C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4190BDC31BE202F6008F97C5 /* Build configuration list for PBXNativeTarget "赖床福利Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4190BDC41BE202F6008F97C5 /* Debug */,
+				4190BDC51BE202F6008F97C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4190BDC61BE202F6008F97C5 /* Build configuration list for PBXNativeTarget "赖床福利UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4190BDC71BE202F6008F97C5 /* Debug */,
+				4190BDC81BE202F6008F97C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4190BD901BE202F6008F97C5 /* Project object */;
+}
